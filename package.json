@@ -1,0 +1,30 @@
+{
+  "name": "shuvarin_bot",
+  "version": "1.0.0",
+  "description": "bot for TG",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojenya/shuvarin_bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "telegraf",
+    "tg",
+    "bot"
+  ],
+  "author": "ojenya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojenya/shuvarin_bot/issues"
+  },
+  "homepage": "https://github.com/ojenya/shuvarin_bot#readme",
+  "dependencies": {
+    "covid19-api": "^1.2.1",
+    "nodemon": "^2.0.6",
+    "telegraf": "^3.38.0"
+  }
+}
