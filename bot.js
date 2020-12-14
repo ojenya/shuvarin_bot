@@ -18,7 +18,7 @@ bot.start( ctx => ctx.reply(`
 bot.help( ctx => ctx.reply(COUNTRIES_LIST)) // список всех стран на английском языке можно взять в документации covid19-api
 bot.on('sticker', (ctx) => ctx.reply(`
 Респект таким ребятам👍 
-Переводи на сбер: 8-800-555-35-35`))
+Переводи на сбер: 8-800-555-35-35 `))
 bot.on('text', async (ctx) => {
    try {
        const userText = ctx.message.text
